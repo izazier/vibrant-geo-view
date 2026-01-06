@@ -11,7 +11,7 @@ export interface BankSampah {
 export type VolumeCategory = 'low' | 'medium' | 'high';
 
 export const KECAMATAN_LIST = [
-  'binawidya',
+  'tampan',
   'rumbai',
   'tenayan raya',
   'marpoyan damai'
@@ -23,7 +23,7 @@ export const KECAMATAN_COLORS: Record<string, string> = {
   'marpoyan damai': '#e74c3c',
   'rumbai': '#2ecc71',
   'tenayan raya': '#3498db',
-  'binawidya': '#9b59b6',
+  'tampan': '#9b59b6',
 };
 
 export const VOLUME_COLORS = {

@@ -55,9 +55,20 @@ export default function MapView({ filters }: MapViewProps) {
       .catch(err => console.error('Error loading data:', err));
   }, []);
 
+  // Normalize kecamatan name to match our list
+  const normalizeKecamatan = (kec: string): string => {
+    const lower = kec.toLowerCase().trim();
+    // Handle typos and variations
+    if (lower.includes('tampan') || lower === 'panam') return 'tampan';
+    if (lower.includes('tenayan') || lower === 'tenayanan raya') return 'tenayan raya';
+    if (lower.includes('marpoyan')) return 'marpoyan damai';
+    if (lower.includes('rumbai')) return 'rumbai';
+    return lower;
+  };
+
   // Filter data to only include the 4 kecamatan
   const filteredData = bankSampahData.filter(item => {
-    const kec = item.Kecamatan.toLowerCase();
+    const kec = normalizeKecamatan(item.Kecamatan);
     return KECAMATAN_LIST.includes(kec as any) && filters[kec] !== false;
   });
 
