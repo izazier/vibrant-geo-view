@@ -1,0 +1,902 @@
+[
+  {
+    "No": 1,
+    "Nama Bank Sampah": "bank sampah inspirasi madani",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.4639,
+    "Longtitude": 101.4354,
+    "Volume Sampah Per Minggu": "1300  -  1500 kg",
+    "Jenis Sampah Dominan": "botol plastik, kardus, logam, jelantah"
+  },
+  {
+    "No": 2,
+    "Nama Bank Sampah": "bank sampah tuan di bangarna",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.4802,
+    "Longtitude": 101.4254,
+    "Volume Sampah Per Minggu": "200 - 250 kg",
+    "Jenis Sampah Dominan": "kertas besi, elektronik, plastik"
+  },
+  {
+    "No": 3,
+    "Nama Bank Sampah": "bank sampah  green selaras",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.458,
+    "Longtitude": 101.445,
+    "Volume Sampah Per Minggu": "200  -  300 Kg",
+    "Jenis Sampah Dominan": "organik, plastik kemasan"
+  },
+  {
+    "No": 4,
+    "Nama Bank Sampah": "bank sampah  pelita berlian",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.471,
+    "Longtitude": 101.4165,
+    "Volume Sampah Per Minggu": "30  -  50 Kg",
+    "Jenis Sampah Dominan": "plastik botol, gelas"
+  },
+  {
+    "No": 5,
+    "Nama Bank Sampah": "bank sampah  elba bestari",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.4455,
+    "Longtitude": 101.448,
+    "Volume Sampah Per Minggu": "20  -  40kg",
+    "Jenis Sampah Dominan": "kertas koran, kardus, plastik bersih"
+  },
+  {
+    "No": 6,
+    "Nama Bank Sampah": "bank sampah  nuri lestari",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.4905,
+    "Longtitude": 101.4385,
+    "Volume Sampah Per Minggu": "20  -  30 Kg",
+    "Jenis Sampah Dominan": "plastik ,botol, gelas,kertas"
+  },
+  {
+    "No": 7,
+    "Nama Bank Sampah": "bank sampah  berkah abadi",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.5652,
+    "Longtitude": 101.4675,
+    "Volume Sampah Per Minggu": "20  -  40kg",
+    "Jenis Sampah Dominan": "minyak jelantah, plastik"
+  },
+  {
+    "No": 8,
+    "Nama Bank Sampah": "bank sampah  agrowisata ibnu al mubarok",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.6073,
+    "Longtitude": 101.3978,
+    "Volume Sampah Per Minggu": "450  -  600 kg",
+    "Jenis Sampah Dominan": "organik , plastik"
+  },
+  {
+    "No": 9,
+    "Nama Bank Sampah": "bank sampah unilak",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.5812,
+    "Longtitude": 101.4267,
+    "Volume Sampah Per Minggu": "50  -  100 Kg",
+    "Jenis Sampah Dominan": "kertas , buku bekas, botol"
+  },
+  {
+    "No": 10,
+    "Nama Bank Sampah": "bank sampah  limbungan jaya",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.5639,
+    "Longtitude": 101.4588,
+    "Volume Sampah Per Minggu": "50  -  70 Kg",
+    "Jenis Sampah Dominan": "kardus , plastik rumah tangga"
+  },
+  {
+    "No": 11,
+    "Nama Bank Sampah": "bank sampah  greenpay fisip unri",
+    "Kecamatan": "panam",
+    "Lattitude": 0.5813,
+    "Longtitude": 101.4267,
+    "Volume Sampah Per Minggu": "450  -  600 kg",
+    "Jenis Sampah Dominan": "botol plastik, kertas"
+  },
+  {
+    "No": 12,
+    "Nama Bank Sampah": "gudang kara  - kara nainggolan",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.590822532,
+    "Longtitude": 101.3857705,
+    "Volume Sampah Per Minggu": "250 - 300 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 13,
+    "Nama Bank Sampah": "dalang collection",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.530255646,
+    "Longtitude": 101.4754335,
+    "Volume Sampah Per Minggu": "100  -  200 Kg",
+    "Jenis Sampah Dominan": "botol plastik"
+  },
+  {
+    "No": 14,
+    "Nama Bank Sampah": "gudang besi tua",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.484984042,
+    "Longtitude": 101.4179208,
+    "Volume Sampah Per Minggu": "10  -  50 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 15,
+    "Nama Bank Sampah": "barang bekas",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.486503278,
+    "Longtitude": 101.4937407,
+    "Volume Sampah Per Minggu": "250 - 300 Kg",
+    "Jenis Sampah Dominan": "elektronik,kardus,botol"
+  },
+  {
+    "No": 16,
+    "Nama Bank Sampah": "besi tua",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.48240019,
+    "Longtitude": 101.4378862,
+    "Volume Sampah Per Minggu": "1000 - 1 500 kg",
+    "Jenis Sampah Dominan": "kardus, besi, elektronik"
+  },
+  {
+    "No": 17,
+    "Nama Bank Sampah": "kedai besi rabih",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.446174966,
+    "Longtitude": 101.4188138,
+    "Volume Sampah Per Minggu": "2000  -  3000 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 18,
+    "Nama Bank Sampah": "jual beli besi tua",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.486611997,
+    "Longtitude": 101.437772,
+    "Volume Sampah Per Minggu": "200 - 250 kg",
+    "Jenis Sampah Dominan": "kardus, botol , plastik bersih"
+  },
+  {
+    "No": 19,
+    "Nama Bank Sampah": "jual beli besi tua simamora sentral perkasas",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.543973761,
+    "Longtitude": 101.4754563,
+    "Volume Sampah Per Minggu": "250 - 300 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 20,
+    "Nama Bank Sampah": "besi tua pekanbaru",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.485306366,
+    "Longtitude": 101.4903259,
+    "Volume Sampah Per Minggu": "100  -  200 Kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 21,
+    "Nama Bank Sampah": "kerajinan siret pekanbaru",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.483664625,
+    "Longtitude": 101.4460316,
+    "Volume Sampah Per Minggu": "10  -  50 kg",
+    "Jenis Sampah Dominan": "anyaman, rotan"
+  },
+  {
+    "No": 22,
+    "Nama Bank Sampah": "sarok perkasa",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.482076394,
+    "Longtitude": 101.4942341,
+    "Volume Sampah Per Minggu": "800  -  1100 kg",
+    "Jenis Sampah Dominan": "besi, elekteonik"
+  },
+  {
+    "No": 23,
+    "Nama Bank Sampah": "rongsokan ud. simamora sentral perkasa",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.539162206,
+    "Longtitude": 101.4752232,
+    "Volume Sampah Per Minggu": "450  -  600 kg",
+    "Jenis Sampah Dominan": "kardus, botol , plastik bersih"
+  },
+  {
+    "No": 24,
+    "Nama Bank Sampah": "kartama besi tua",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.450288614,
+    "Longtitude": 101.4264679,
+    "Volume Sampah Per Minggu": "250 - 300 Kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 25,
+    "Nama Bank Sampah": "besi tua",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.483996696,
+    "Longtitude": 101.4912478,
+    "Volume Sampah Per Minggu": "400  -  600 Kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 26,
+    "Nama Bank Sampah": "gudang besi tua",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.426745661,
+    "Longtitude": 101.42527,
+    "Volume Sampah Per Minggu": "350  -  500  kg",
+    "Jenis Sampah Dominan": "kertas , buku bekas, botol"
+  },
+  {
+    "No": 27,
+    "Nama Bank Sampah": "ud indo sarana plastik",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.467560016,
+    "Longtitude": 101.5159018,
+    "Volume Sampah Per Minggu": "1000 - 2000 kg",
+    "Jenis Sampah Dominan": "kertas besi, elektronik, plastik"
+  },
+  {
+    "No": 28,
+    "Nama Bank Sampah": "gudang besi tua sultan scrap pekanbaru",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.491558674,
+    "Longtitude": 101.4518259,
+    "Volume Sampah Per Minggu": "1000 - 500 Kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 29,
+    "Nama Bank Sampah": "dalang collection",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.527412585,
+    "Longtitude": 101.475413,
+    "Volume Sampah Per Minggu": "800  -  1100 kg",
+    "Jenis Sampah Dominan": "kardus, botol , plastik bersih"
+  },
+  {
+    "No": 30,
+    "Nama Bank Sampah": "bank sampah cinta budi",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.468251153,
+    "Longtitude": 101.518255,
+    "Volume Sampah Per Minggu": "200  -  300 kg",
+    "Jenis Sampah Dominan": "kardus, botol , plastik bersih"
+  },
+  {
+    "No": 31,
+    "Nama Bank Sampah": "gudang besi tua scrap yard",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.484520813,
+    "Longtitude": 101.4204119,
+    "Volume Sampah Per Minggu": "700  -  900 kg",
+    "Jenis Sampah Dominan": "kardus, besi, plastik"
+  },
+  {
+    "No": 32,
+    "Nama Bank Sampah": "bank jatah riau",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.584264239,
+    "Longtitude": 101.4196298,
+    "Volume Sampah Per Minggu": "300  -  500 kg",
+    "Jenis Sampah Dominan": "minyak, plastik"
+  },
+  {
+    "No": 33,
+    "Nama Bank Sampah": "besi tua marpoyan",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.487267297,
+    "Longtitude": 101.437063,
+    "Volume Sampah Per Minggu": "400  -  600kg",
+    "Jenis Sampah Dominan": "kertas,kardus"
+  },
+  {
+    "No": 34,
+    "Nama Bank Sampah": "jual beli rongsokan dan besi tua sarok perkasa kota pekanbaru riau",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.482323149,
+    "Longtitude": 101.4943843,
+    "Volume Sampah Per Minggu": "800  -  1100 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 35,
+    "Nama Bank Sampah": "bank sampah mk bank sampah mitra karya",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.569758866,
+    "Longtitude": 101.4510158,
+    "Volume Sampah Per Minggu": "300  -  500 kg",
+    "Jenis Sampah Dominan": "kardus, botol , plastik bersih"
+  },
+  {
+    "No": 36,
+    "Nama Bank Sampah": "barang bekas intan",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.50247691,
+    "Longtitude": 101.420085,
+    "Volume Sampah Per Minggu": "700  -  900 kg",
+    "Jenis Sampah Dominan": "kardus, botol , plastik bersih"
+  },
+  {
+    "No": 37,
+    "Nama Bank Sampah": "bank sampah  -  the gade (clean & gold)",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.458713848,
+    "Longtitude": 101.3807262,
+    "Volume Sampah Per Minggu": "400  -  600kg",
+    "Jenis Sampah Dominan": "kardus, besi, plastik"
+  },
+  {
+    "No": 38,
+    "Nama Bank Sampah": "gudang kara pasaribu",
+    "Kecamatan": "tenayan raya",
+    "Lattitude": 0.526929465,
+    "Longtitude": 101.466202,
+    "Volume Sampah Per Minggu": "200  -  300 kg",
+    "Jenis Sampah Dominan": "kertas besi, elektronik, plastik"
+  },
+  {
+    "No": 39,
+    "Nama Bank Sampah": "karakara",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.48630701,
+    "Longtitude": 101.3967941,
+    "Volume Sampah Per Minggu": "2000  -  2500 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 40,
+    "Nama Bank Sampah": "barang bekas pekanbaru",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.486992933,
+    "Longtitude": 101.3513431,
+    "Volume Sampah Per Minggu": "100 - 300kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 41,
+    "Nama Bank Sampah": "bank sampah cahaya berkah edukasi",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.526998349,
+    "Longtitude": 101.4473123,
+    "Volume Sampah Per Minggu": "200  -  300 kg",
+    "Jenis Sampah Dominan": "kertas besi, elektronik, plastik"
+  },
+  {
+    "No": 42,
+    "Nama Bank Sampah": "barang bekas terpadu",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.516587593,
+    "Longtitude": 101.4351915,
+    "Volume Sampah Per Minggu": "100 - 500 kg",
+    "Jenis Sampah Dominan": "kardus, besi, plastik"
+  },
+  {
+    "No": 43,
+    "Nama Bank Sampah": "gudang besitua.ud rancak saiyo",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.496876432,
+    "Longtitude": 101.4519692,
+    "Volume Sampah Per Minggu": "1000  -  11100 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 44,
+    "Nama Bank Sampah": "gudang besi bekas rajawali sakti",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.494219575,
+    "Longtitude": 101.396335,
+    "Volume Sampah Per Minggu": "1000  -  11100 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 45,
+    "Nama Bank Sampah": "senang daur ulang lestari",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.462598133,
+    "Longtitude": 101.4053053,
+    "Volume Sampah Per Minggu": "500  -  600 kg",
+    "Jenis Sampah Dominan": "kardus, besi, plastik"
+  },
+  {
+    "No": 46,
+    "Nama Bank Sampah": "bank sampah rw 04 sri meranti",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.5761,
+    "Longtitude": 101.4302,
+    "Volume Sampah Per Minggu": "100  -  150 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 47,
+    "Nama Bank Sampah": "sentra kerajinan rotan",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.556501506,
+    "Longtitude": 101.4370107,
+    "Volume Sampah Per Minggu": "5  -  10 kg",
+    "Jenis Sampah Dominan": "anyaman,rotan"
+  },
+  {
+    "No": 48,
+    "Nama Bank Sampah": "bank sampah komunitas tuah sejahtera",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.4699,
+    "Longtitude": 101.3788,
+    "Volume Sampah Per Minggu": "70 � 120 kg",
+    "Jenis Sampah Dominan": "kardus, besi, plastik"
+  },
+  {
+    "No": 49,
+    "Nama Bank Sampah": "farhanah karung",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.55856019,
+    "Longtitude": 101.4140078,
+    "Volume Sampah Per Minggu": "10  -  20kg",
+    "Jenis Sampah Dominan": "kardus, besi, plastik"
+  },
+  {
+    "No": 50,
+    "Nama Bank Sampah": "menerima barang bekas",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.482123949,
+    "Longtitude": 101.3520611,
+    "Volume Sampah Per Minggu": "200 - 250 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 51,
+    "Nama Bank Sampah": "bank sampah bersama",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.569545543,
+    "Longtitude": 101.4510043,
+    "Volume Sampah Per Minggu": "300 - 350 kg",
+    "Jenis Sampah Dominan": "plastik"
+  },
+  {
+    "No": 52,
+    "Nama Bank Sampah": "kerajinan kina",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.569181268,
+    "Longtitude": 101.4517377,
+    "Volume Sampah Per Minggu": "200  -  250 kg",
+    "Jenis Sampah Dominan": "kardus, besi, plastik"
+  },
+  {
+    "No": 53,
+    "Nama Bank Sampah": "besi bekas asep jaya",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.480517873,
+    "Longtitude": 101.4428934,
+    "Volume Sampah Per Minggu": "200  -  300 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 54,
+    "Nama Bank Sampah": "jual besi risman",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.495684235,
+    "Longtitude": 101.4510613,
+    "Volume Sampah Per Minggu": "300 - 350 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 55,
+    "Nama Bank Sampah": "gudang plastik",
+    "Kecamatan": "tenayanan raya",
+    "Lattitude": 0.481870798,
+    "Longtitude": 101.492901,
+    "Volume Sampah Per Minggu": "500  -  600 kg",
+    "Jenis Sampah Dominan": "plastik rumah tangga"
+  },
+  {
+    "No": 56,
+    "Nama Bank Sampah": "purwodadi sampah bekas",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.458812168,
+    "Longtitude": 101.402036,
+    "Volume Sampah Per Minggu": "200 - 250 kg",
+    "Jenis Sampah Dominan": "karung"
+  },
+  {
+    "No": 57,
+    "Nama Bank Sampah": "jual besi dan elektronik bekas damai",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.494443009,
+    "Longtitude": 101.452282,
+    "Volume Sampah Per Minggu": "700  -  900 kg",
+    "Jenis Sampah Dominan": "elektronik, besi, plastik"
+  },
+  {
+    "No": 58,
+    "Nama Bank Sampah": "jual kardus dan seng bekas pekanbaru",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.487822072,
+    "Longtitude": 101.4463807,
+    "Volume Sampah Per Minggu": "200 - 250 kg",
+    "Jenis Sampah Dominan": "besi,kardus"
+  },
+  {
+    "No": 59,
+    "Nama Bank Sampah": "bnk sampah desa",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.569689683,
+    "Longtitude": 101.4552975,
+    "Volume Sampah Per Minggu": "150  -  200 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 60,
+    "Nama Bank Sampah": "kerajinan kia",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.571206317,
+    "Longtitude": 101.4495079,
+    "Volume Sampah Per Minggu": "50  -  100 kg",
+    "Jenis Sampah Dominan": "anyaman,rotan"
+  },
+  {
+    "No": 61,
+    "Nama Bank Sampah": "pengepul barang bekas",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.565769859,
+    "Longtitude": 101.4612476,
+    "Volume Sampah Per Minggu": "200 - 250 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 62,
+    "Nama Bank Sampah": "daur ulang plastik",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.564507605,
+    "Longtitude": 101.4558222,
+    "Volume Sampah Per Minggu": "100 � 150 kg",
+    "Jenis Sampah Dominan": "plastik rumah tangga"
+  },
+  {
+    "No": 63,
+    "Nama Bank Sampah": "kara kara bersama",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.561565353,
+    "Longtitude": 101.4519856,
+    "Volume Sampah Per Minggu": "700  -  900 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 64,
+    "Nama Bank Sampah": "barang bekas intan",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.563018265,
+    "Longtitude": 101.4533754,
+    "Volume Sampah Per Minggu": "300 - 350 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 65,
+    "Nama Bank Sampah": "pengepul besi",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.563069126,
+    "Longtitude": 101.4530872,
+    "Volume Sampah Per Minggu": "200  -  250 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 66,
+    "Nama Bank Sampah": "anyaman terpadu",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.56995377,
+    "Longtitude": 101.4502977,
+    "Volume Sampah Per Minggu": "60  -  100 kg",
+    "Jenis Sampah Dominan": "anyaman, kain perca"
+  },
+  {
+    "No": 67,
+    "Nama Bank Sampah": "besi karat",
+    "Kecamatan": "rumbai",
+    "Lattitude": 0.571584743,
+    "Longtitude": 101.4560479,
+    "Volume Sampah Per Minggu": "300  -  500 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 68,
+    "Nama Bank Sampah": "belajar daur ulang sidomulyo",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.44536534,
+    "Longtitude": 101.3996677,
+    "Volume Sampah Per Minggu": "200  -  250 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 69,
+    "Nama Bank Sampah": "karo karo marpoyan",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.487673217,
+    "Longtitude": 101.4469017,
+    "Volume Sampah Per Minggu": "200  -  250 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 70,
+    "Nama Bank Sampah": "pengepul besi rahmat",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.487740878,
+    "Longtitude": 101.4461416,
+    "Volume Sampah Per Minggu": "700  -  900 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 71,
+    "Nama Bank Sampah": "jual besi bekas riki",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.487882967,
+    "Longtitude": 101.4456792,
+    "Volume Sampah Per Minggu": "150  -  200 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 72,
+    "Nama Bank Sampah": "jual beli kardus plastik bekas",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.487882967,
+    "Longtitude": 101.4456026,
+    "Volume Sampah Per Minggu": "200  -  300 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 73,
+    "Nama Bank Sampah": "jual elektronik bekas",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.488588901,
+    "Longtitude": 101.4452372,
+    "Volume Sampah Per Minggu": "300  -  500 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 74,
+    "Nama Bank Sampah": "besi solihin",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.489132447,
+    "Longtitude": 101.4454266,
+    "Volume Sampah Per Minggu": "700  -  900 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 75,
+    "Nama Bank Sampah": "kerjina tangan mentari",
+    "Kecamatan": "marpoyan damai",
+    "Lattitude": 0.489565479,
+    "Longtitude": 101.4462521,
+    "Volume Sampah Per Minggu": "5  -  10 kg",
+    "Jenis Sampah Dominan": "anyaman"
+  },
+  {
+    "No": 76,
+    "Nama Bank Sampah": "hijau sempurna barang bekas",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.445896295,
+    "Longtitude": 101.396915,
+    "Volume Sampah Per Minggu": "300 - 350 kg",
+    "Jenis Sampah Dominan": "anyaman"
+  },
+  {
+    "No": 77,
+    "Nama Bank Sampah": "haqiqin jual barang bekas",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.462906203,
+    "Longtitude": 101.3887362,
+    "Volume Sampah Per Minggu": "200  -  250 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 78,
+    "Nama Bank Sampah": "sukakarya green",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.462342235,
+    "Longtitude": 101.388043,
+    "Volume Sampah Per Minggu": "200  -  300 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 79,
+    "Nama Bank Sampah": "jual beli barang bekas kayu putih",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.483150435,
+    "Longtitude": 101.3511094,
+    "Volume Sampah Per Minggu": "300 - 350 kg",
+    "Jenis Sampah Dominan": "kardus, botol , plastik bersih"
+  },
+  {
+    "No": 80,
+    "Nama Bank Sampah": "lestari recycle",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.539715161,
+    "Longtitude": 101.4035242,
+    "Volume Sampah Per Minggu": "500  -  600 kg",
+    "Jenis Sampah Dominan": "plastik rumah tangga"
+  },
+  {
+    "No": 81,
+    "Nama Bank Sampah": "kerajinan daur ulang melati",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.481139114,
+    "Longtitude": 101.3651756,
+    "Volume Sampah Per Minggu": "200  -  250 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 82,
+    "Nama Bank Sampah": "gudang sampah pekanbaru",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.465564501,
+    "Longtitude": 101.3906855,
+    "Volume Sampah Per Minggu": "700  -  900 kg",
+    "Jenis Sampah Dominan": "anyaman, kain perca"
+  },
+  {
+    "No": 83,
+    "Nama Bank Sampah": "swakarya barang bekas",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.460444961,
+    "Longtitude": 101.3807319,
+    "Volume Sampah Per Minggu": "150  -  200 kg",
+    "Jenis Sampah Dominan": "besi, elektronik"
+  },
+  {
+    "No": 84,
+    "Nama Bank Sampah": "kutilang jaya daur ulang",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.462485168,
+    "Longtitude": 101.3831268,
+    "Volume Sampah Per Minggu": "2000  -  2500 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 85,
+    "Nama Bank Sampah": "cendrawasih",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.466341222,
+    "Longtitude": 101.3809036,
+    "Volume Sampah Per Minggu": "200  -  250 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 86,
+    "Nama Bank Sampah": "harapan jaya besi",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.450090392,
+    "Longtitude": 101.3884246,
+    "Volume Sampah Per Minggu": "700  -  900 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 87,
+    "Nama Bank Sampah": "elang jual beli besi",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.466557503,
+    "Longtitude": 101.3786648,
+    "Volume Sampah Per Minggu": "150  -  200 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 88,
+    "Nama Bank Sampah": "jual beli karah",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.450410033,
+    "Longtitude": 101.3857228,
+    "Volume Sampah Per Minggu": "200  -  300 kg",
+    "Jenis Sampah Dominan": "kardus, botol , plastik bersih"
+  },
+  {
+    "No": 89,
+    "Nama Bank Sampah": "tri tunggal",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.45300533,
+    "Longtitude": 101.4013559,
+    "Volume Sampah Per Minggu": "700  -  900 kg",
+    "Jenis Sampah Dominan": "kardus, besi, plastik"
+  },
+  {
+    "No": 90,
+    "Nama Bank Sampah": "karah kubang",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.443503217,
+    "Longtitude": 101.3697016,
+    "Volume Sampah Per Minggu": "150  -  200 kg",
+    "Jenis Sampah Dominan": "kertas besi, elektronik, plastik"
+  },
+  {
+    "No": 91,
+    "Nama Bank Sampah": "taman karya",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.442983272,
+    "Longtitude": 101.3760617,
+    "Volume Sampah Per Minggu": "2000  -  2500 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 92,
+    "Nama Bank Sampah": "tuah barang karah",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.445412085,
+    "Longtitude": 101.380338,
+    "Volume Sampah Per Minggu": "450  -  600 kg",
+    "Jenis Sampah Dominan": "kardus, botol , plastik bersih"
+  },
+  {
+    "No": 93,
+    "Nama Bank Sampah": "bina widya daur ulang",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.477067904,
+    "Longtitude": 101.3812914,
+    "Volume Sampah Per Minggu": "250 - 300 Kg",
+    "Jenis Sampah Dominan": "minyak jelantah, plastik"
+  },
+  {
+    "No": 94,
+    "Nama Bank Sampah": "kamboja lestari lingkungan",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.48060457,
+    "Longtitude": 101.37099,
+    "Volume Sampah Per Minggu": "400  -  600 Kg",
+    "Jenis Sampah Dominan": "organik , plastik"
+  },
+  {
+    "No": 95,
+    "Nama Bank Sampah": "green binawidya",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.482305196,
+    "Longtitude": 101.3739593,
+    "Volume Sampah Per Minggu": "100 � 150 kg",
+    "Jenis Sampah Dominan": "kertas , buku bekas, botol"
+  },
+  {
+    "No": 96,
+    "Nama Bank Sampah": "melayu hijau",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.466696403,
+    "Longtitude": 101.3662505,
+    "Volume Sampah Per Minggu": "700  -  900 kg",
+    "Jenis Sampah Dominan": "kardus , plastik rumah tangga"
+  },
+  {
+    "No": 97,
+    "Nama Bank Sampah": "barang bekas saudara",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.455088537,
+    "Longtitude": 101.3677303,
+    "Volume Sampah Per Minggu": "800  -  1100 kg",
+    "Jenis Sampah Dominan": "elektronik, besi, plastik"
+  },
+  {
+    "No": 98,
+    "Nama Bank Sampah": "kakap daur sampah",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.443279039,
+    "Longtitude": 101.3715973,
+    "Volume Sampah Per Minggu": "450  -  600 kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 99,
+    "Nama Bank Sampah": "jajan sampah mandiri",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.438823634,
+    "Longtitude": 101.3812939,
+    "Volume Sampah Per Minggu": "250 - 300 Kg",
+    "Jenis Sampah Dominan": "plastik botol, kardus, kertas"
+  },
+  {
+    "No": 100,
+    "Nama Bank Sampah": "bahagia sampah daur",
+    "Kecamatan": "tampan",
+    "Lattitude": 0.44001248,
+    "Longtitude": 101.3932369,
+    "Volume Sampah Per Minggu": "700  -  900 kg",
+    "Jenis Sampah Dominan": "elektronik, besi, plastik"
+  }
+]
