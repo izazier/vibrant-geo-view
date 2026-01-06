@@ -58,7 +58,6 @@ export default function MapView({ filters }: MapViewProps) {
   // Normalize kecamatan name to match our list
   const normalizeKecamatan = (kec: string): string => {
     const lower = kec.toLowerCase().trim();
-    // Handle typos and variations
     if (lower.includes('tampan') || lower === 'panam') return 'tampan';
     if (lower.includes('tenayan') || lower === 'tenayanan raya') return 'tenayan raya';
     if (lower.includes('marpoyan')) return 'marpoyan damai';
@@ -69,14 +68,13 @@ export default function MapView({ filters }: MapViewProps) {
   // Filter data to only include the 4 kecamatan
   const filteredData = bankSampahData.filter(item => {
     const kec = normalizeKecamatan(item.Kecamatan);
-    return KECAMATAN_LIST.includes(kec as any) && filters[kec] !== false;
+    return KECAMATAN_LIST.includes(kec as typeof KECAMATAN_LIST[number]) && filters[kec] !== false;
   });
 
   // Initialize map
   useEffect(() => {
     if (!mapRef.current) return;
 
-    // Create popup overlay
     const overlay = new Overlay({
       element: popupRef.current!,
       autoPan: {
@@ -87,23 +85,18 @@ export default function MapView({ filters }: MapViewProps) {
     });
     overlayRef.current = overlay;
 
-    // Vector source for markers
     const vectorSource = new VectorSource();
     vectorSourceRef.current = vectorSource;
 
-    // Heatmap source
     const heatmapSource = new VectorSource();
     heatmapSourceRef.current = heatmapSource;
 
-    // Create map
     const map = new Map({
       target: mapRef.current,
       layers: [
-        // Base layer
         new TileLayer({
           source: new OSM(),
         }),
-        // Heatmap layer
         new HeatmapLayer({
           source: heatmapSource,
           blur: 15,
@@ -112,7 +105,6 @@ export default function MapView({ filters }: MapViewProps) {
           visible: false,
           className: 'heatmap-layer',
         }),
-        // Vector layer for markers
         new VectorLayer({
           source: vectorSource,
           style: (feature) => {
@@ -140,7 +132,6 @@ export default function MapView({ filters }: MapViewProps) {
 
     mapInstanceRef.current = map;
 
-    // Click handler for popups
     map.on('click', (evt) => {
       const feature = map.forEachFeatureAtPixel(evt.pixel, (f) => f);
       
@@ -156,7 +147,6 @@ export default function MapView({ filters }: MapViewProps) {
       }
     });
 
-    // Cursor style on hover
     map.on('pointermove', (evt) => {
       const hit = map.hasFeatureAtPixel(evt.pixel);
       map.getTargetElement().style.cursor = hit ? 'pointer' : '';
@@ -178,7 +168,6 @@ export default function MapView({ filters }: MapViewProps) {
       const coords = fromLonLat([item.Longtitude, item.Lattitude]);
       const volumeCategory = getVolumeCategory(item["Volume Sampah Per Minggu"]);
 
-      // Marker feature
       const markerFeature = new Feature({
         geometry: new Point(coords),
         data: item,
@@ -186,14 +175,12 @@ export default function MapView({ filters }: MapViewProps) {
       });
       vectorSourceRef.current!.addFeature(markerFeature);
 
-      // Heatmap feature
       const heatmapFeature = new Feature({
         geometry: new Point(coords),
       });
       heatmapSourceRef.current!.addFeature(heatmapFeature);
     });
 
-    // Close popup if current item is filtered out
     if (popupContent) {
       const stillVisible = filteredData.find(item => item.No === popupContent.No);
       if (!stillVisible) {
@@ -225,7 +212,6 @@ export default function MapView({ filters }: MapViewProps) {
 
   return (
     <div className="relative w-full h-full">
-      {/* Map Container */}
       <div ref={mapRef} className="w-full h-full" />
 
       {/* Layer Controls */}
@@ -306,7 +292,6 @@ export default function MapView({ filters }: MapViewProps) {
               </div>
             </div>
             
-            {/* Arrow */}
             <div className="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-full">
               <div className="w-0 h-0 border-l-8 border-r-8 border-t-8 border-transparent border-t-card"></div>
             </div>

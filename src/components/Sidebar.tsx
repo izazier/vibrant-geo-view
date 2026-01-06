@@ -1,9 +1,9 @@
-import { Home, Map, BookOpen, Info, ChevronLeft, Menu } from 'lucide-react';
+import { Home, Map, BookOpen, Info, ChevronLeft, Menu, LayoutDashboard } from 'lucide-react';
 import { KECAMATAN_LIST, formatKecamatan } from '@/data/types';
 
 interface SidebarProps {
-  currentPage: 'home' | 'map' | 'method' | 'info';
-  onNavigate: (page: 'home' | 'map' | 'method' | 'info') => void;
+  currentPage: 'home' | 'map' | 'dashboard' | 'method' | 'info';
+  onNavigate: (page: 'home' | 'map' | 'dashboard' | 'method' | 'info') => void;
   isOpen: boolean;
   onToggle: () => void;
   filters: Record<string, boolean>;
@@ -22,6 +22,7 @@ export default function Sidebar({
 }: SidebarProps) {
   const navItems = [
     { id: 'home' as const, icon: Home, label: 'Beranda' },
+    { id: 'dashboard' as const, icon: LayoutDashboard, label: 'Dashboard' },
     { id: 'map' as const, icon: Map, label: 'Peta & Data' },
     { id: 'method' as const, icon: BookOpen, label: 'Metodologi' },
     { id: 'info' as const, icon: Info, label: 'Tentang Proyek' },
@@ -48,7 +49,14 @@ export default function Sidebar({
         <div className="p-6 border-b border-sidebar-border">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="Logo SIG" className="w-12 h-12 object-contain" />
+              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center overflow-hidden">
+                {/* PERUBAHAN ADA DI SINI */}
+                <img 
+                  src="/logo.png" 
+                  alt="Logo SIG" 
+                  className="w-full h-full object-contain p-2" 
+                />
+              </div>
               <div>
                 <h1 className="text-lg font-bold text-sidebar-foreground">SIG Bank Sampah</h1>
                 <span className="text-xs text-muted-foreground uppercase tracking-wide">

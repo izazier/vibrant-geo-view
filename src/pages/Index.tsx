@@ -2,11 +2,12 @@ import { useState, useMemo, useEffect } from 'react';
 import Sidebar from '@/components/Sidebar';
 import HomePage from '@/components/HomePage';
 import MapView from '@/components/MapView';
+import DashboardView from '@/components/DashboardView';
 import MethodPage from '@/components/MethodPage';
 import InfoPage from '@/components/InfoPage';
 import { KECAMATAN_LIST, BankSampah } from '@/data/types';
 
-type Page = 'home' | 'map' | 'method' | 'info';
+type Page = 'home' | 'map' | 'dashboard' | 'method' | 'info';
 
 export default function Index() {
   const [currentPage, setCurrentPage] = useState<Page>('home');
@@ -28,10 +29,7 @@ export default function Index() {
   }, []);
 
   const totalLocations = useMemo(() => {
-    return bankSampahData.filter(item => {
-      const kec = item.Kecamatan.toLowerCase();
-      return KECAMATAN_LIST.includes(kec as any);
-    }).length;
+    return bankSampahData.length;
   }, [bankSampahData]);
 
   const handleNavigate = (page: Page) => {
@@ -67,21 +65,26 @@ export default function Index() {
           <HomePage
             onNavigateToMap={() => handleNavigate('map')}
             onNavigateToMethod={() => handleNavigate('method')}
+            onNavigateToDashboard={() => handleNavigate('dashboard')}
           />
         )}
 
         {currentPage === 'map' && (
           <MapView filters={filters} />
         )}
+
+        {currentPage === 'dashboard' && (
+          <DashboardView data={bankSampahData} />
+        )}
       </main>
 
       {/* Overlay Pages */}
       {currentPage === 'method' && (
-        <MethodPage onClose={() => handleNavigate('map')} />
+        <MethodPage onClose={() => handleNavigate('dashboard')} />
       )}
 
       {currentPage === 'info' && (
-        <InfoPage onClose={() => handleNavigate('map')} />
+        <InfoPage onClose={() => handleNavigate('dashboard')} />
       )}
     </div>
   );

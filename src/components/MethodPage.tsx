@@ -96,7 +96,7 @@ export default function MethodPage({ onClose }: MethodPageProps) {
           <div className="p-4 rounded-xl bg-muted/30">
             <p className="text-muted-foreground">
               Data bank sampah yang digunakan dalam sistem ini diperoleh dari hasil survei 
-              lapangan di 4 kecamatan di Kota Pekanbaru, yaitu Binawidya, Rumbai, Tenayan Raya, 
+              lapangan di 4 kecamatan di Kota Pekanbaru, yaitu Tampan, Rumbai, Tenayan Raya, 
               dan Marpoyan Damai. Data mencakup informasi lokasi, volume sampah, dan jenis 
               sampah dominan dari setiap bank sampah.
             </p>

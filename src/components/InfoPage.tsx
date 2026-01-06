@@ -52,7 +52,7 @@ export default function InfoPage({ onClose }: InfoPageProps) {
               <div>
                 <h4 className="font-semibold mb-1">Cakupan Wilayah</h4>
                 <p className="text-sm text-muted-foreground">
-                  4 Kecamatan: Binawidya, Rumbai, Tenayan Raya, dan Marpoyan Damai.
+                  4 Kecamatan: Tampan, Rumbai, Tenayan Raya, dan Marpoyan Damai.
                 </p>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function InfoPage({ onClose }: InfoPageProps) {
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 rounded-full bg-primary mt-2"></span>
                 <span className="text-muted-foreground">
-                  Multiple layer data spasial (marker layer, cluster layer, heatmap layer)
+                  Dashboard analitik dengan grafik dan statistik lengkap
                 </span>
               </li>
             </ul>

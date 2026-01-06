@@ -1,11 +1,12 @@
-import { MapPin, Recycle, BarChart3, Database, ArrowRight, Leaf } from 'lucide-react';
+import { MapPin, Recycle, BarChart3, Database, ArrowRight, LayoutDashboard } from 'lucide-react';
 
 interface HomePageProps {
   onNavigateToMap: () => void;
   onNavigateToMethod: () => void;
+  onNavigateToDashboard: () => void;
 }
 
-export default function HomePage({ onNavigateToMap, onNavigateToMethod }: HomePageProps) {
+export default function HomePage({ onNavigateToMap, onNavigateToMethod, onNavigateToDashboard }: HomePageProps) {
   const features = [
     {
       icon: MapPin,
@@ -40,8 +41,13 @@ export default function HomePage({ onNavigateToMap, onNavigateToMethod }: HomePa
 
         <div className="relative max-w-4xl mx-auto text-center">
           <div className="flex justify-center mb-8">
-            <div className="p-4 rounded-2xl bg-primary/10 border border-primary/20">
-              <Leaf className="w-16 h-16 text-primary" />
+            <div className="p-4 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center">
+              {/* PERUBAHAN DI SINI: Icon Leaf diganti Image */}
+              <img 
+                src="/logo.png" 
+                alt="Logo SIG" 
+                className="w-16 h-16 object-contain" 
+              />
             </div>
           </div>
 
@@ -55,13 +61,14 @@ export default function HomePage({ onNavigateToMap, onNavigateToMethod }: HomePa
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button onClick={onNavigateToMap} className="btn-hero">
-              <MapPin className="w-5 h-5" />
-              Lihat Peta
+            <button onClick={onNavigateToDashboard} className="btn-hero">
+              <LayoutDashboard className="w-5 h-5" />
+              Lihat Dashboard
               <ArrowRight className="w-5 h-5" />
             </button>
-            <button onClick={onNavigateToMethod} className="btn-outline-hero">
-              <span>Metodologi</span>
+            <button onClick={onNavigateToMap} className="btn-outline-hero">
+              <MapPin className="w-5 h-5" />
+              <span>Lihat Peta</span>
             </button>
           </div>
         </div>
@@ -109,7 +116,7 @@ export default function HomePage({ onNavigateToMap, onNavigateToMethod }: HomePa
               </p>
               <p>
                 Data yang ditampilkan mencakup informasi dari 4 kecamatan yaitu:
-                <strong className="text-foreground"> Binawidya, Rumbai, Tenayan Raya, </strong> 
+                <strong className="text-foreground"> Tampan, Rumbai, Tenayan Raya, </strong> 
                 dan <strong className="text-foreground">Marpoyan Damai</strong>.
               </p>
               <p>
@@ -130,7 +137,7 @@ export default function HomePage({ onNavigateToMap, onNavigateToMethod }: HomePa
       <footer className="py-8 px-6 border-t border-border">
         <div className="max-w-6xl mx-auto text-center text-sm text-muted-foreground">
           <p>© 2026 Proyek SIG Bank Sampah Kota Pekanbaru</p>
-          <p className="mt-2">Presentasi: 7 Januari 2026</p>
+          <p className="mt-2">Presentasi: 7 Januari 2026</p >
         </div>
       </footer>
     </div>
